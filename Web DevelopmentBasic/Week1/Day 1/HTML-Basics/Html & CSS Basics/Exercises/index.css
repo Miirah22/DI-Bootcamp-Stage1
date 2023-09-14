@@ -1,0 +1,56 @@
+
+#box{
+    display: center;
+    display: block;
+    border: solid 4px green;
+    width: 650px;
+    height: 150px;
+    background-color: greenyellow;
+    padding:10px 8px 8px 10px;
+    margin:12px 12px 12px 12px;
+    color:brown;
+
+    
+}
+
+#col1,#col2,#col3{
+    width:120px;
+    height:180px;
+    display: inline-flex;
+    margin-top: 14px;
+    
+}
+
+#col1{
+    background-color: midnightblue;
+    margin-left: 12.5px;
+}
+
+#col2{
+    background-color: aliceblue;
+}
+
+#col3{
+    background-color: red;
+}
+
+li:nth-child(2) {
+    color: blue;
+    
+}
+
+ul > li{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+p:first-child{
+    background-color: pink;
+    color:aliceblue;
+}
+
+p:last-child{
+    background-color: lightblue;
+    padding:12px;
+    margin:12px;
+}

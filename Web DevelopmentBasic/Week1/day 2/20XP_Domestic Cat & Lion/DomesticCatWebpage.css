@@ -1,0 +1,31 @@
+
+.row{
+    
+    text-align: center;
+}
+    
+
+#con1{
+    border-width: 2px 2px 1px 2px;
+    border-style: solid;
+    border-color: red;
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#con2{
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+
+#con3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:medium;
+   
+}
+.themed-grid-col{
+    border:ridge;
+}
+  
+
