@@ -1,0 +1,50 @@
+
+body{
+    background-color: #eee;
+    font-family: sans-serif;
+    
+}
+    
+
+.card{
+    background-color: #fff;
+    width: 400px;
+    margin:16px auto;
+    padding: 8px; 
+   
+}
+
+.title{
+    background-color: lightskyblue;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 8px;
+    padding: 8px;
+   
+    
+}
+
+.content{
+    background-color: lightskyblue;
+    padding:16px 8px;
+   
+}
+   
+    
+
+.button-container{
+    background-color: lightskyblue;
+    text-align: center;
+    padding: 8px;
+}
+
+button{
+    background-color: white;
+    border:1px solid #eee;
+    display: block;
+    margin: 0 auto;
+    padding: 8px 24px;
+
+    
+}
+
