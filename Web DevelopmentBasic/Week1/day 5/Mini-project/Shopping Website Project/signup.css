@@ -1,0 +1,26 @@
+nav{
+
+    background-color:#0B666A;
+    border-style: ridge;
+    position:fixed;
+    left: 0;
+    top: 0;
+    height: 60px;
+    width:100%;
+      
+    }
+  
+    .footer{
+ 
+        position:fixed;
+        background-color:#0B666A;
+        border-style: ridge;
+        left: 0;
+        bottom: 0;
+        height: 60px;
+        width:100%;
+        color: #97FEED;
+        text-align: center;   
+        
+      }
+      
