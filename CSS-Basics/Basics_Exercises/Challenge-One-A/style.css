@@ -1,0 +1,50 @@
+.box{
+    background-color:beige ;
+    border:dotted black;
+    width: 675px;
+    height: 450px;
+    font-family: sans-serif;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box1{
+    background-color:burlywood ;
+    width: 900px;
+    height: 470px;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+}
+
+h1{
+    text-align: center;
+    font-style: italic;
+    
+}
+
+hr{
+    border: dotted black;
+    
+}
+.content{
+    text-align: center;
+    font-style: italic;
+    padding:10px;
+}
+
+
+
+p{
+    
+    font-size:smaller;
+    margin:10px 5px ;
+    
+}
+
+.p1{
+    
+   text-align: center;
+}

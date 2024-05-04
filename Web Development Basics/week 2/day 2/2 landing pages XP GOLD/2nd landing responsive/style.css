@@ -1,0 +1,172 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    min-height: 100vh;
+    
+}
+.navbar-brand{
+    color:#1450A3;
+}
+.nav-link{
+    color: grey;
+}
+.nav-link:hover{
+    color:#1450A3;
+}
+.btn-outline-success{
+    color:#0E21A0 ;
+    border-color: #0E21A0;
+}
+.btn-outline-success:hover{
+    background:#1450A3;
+}
+.container{
+    display: block;
+    justify-content: center;
+   
+}
+h1{
+    text-align: center;
+    font-weight: 800;
+}
+h5,p{
+    text-align: center;
+    color: grey;
+}
+.dropdown-toggle{
+    border-color: #0E21A0;
+    color: #0E21A0;
+}
+.dropdown-toggle:hover{
+    background: #1450A3;
+}
+.container2{
+    display:grid;
+    width:85%;
+    margin:50px auto;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap:25px;
+}
+/*.col-3{
+display: grid;
+grid-template-rows: 1fr 1fr;
+box-shadow: 0 35px 55px rgba(196, 82, 82, 0.1);
+border: 2px solid grey;
+padding:50px;
+}
+/*.col-4{
+position: relative;
+background:lightcyan;
+padding:50px;
+border: 2px solid grey;
+}*/
+/*.content{
+    position: relative;
+    background:lightcyan;
+    border: 2px solid grey;
+    padding:50px;
+}*/
+
+.cards{
+    background-color:#fff;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+}
+.section{
+    height:425px;
+   text-align: center;
+}
+.content{
+    background: #1450A3;
+    height: 600px;
+    padding: 20px 10px;
+    text-align:left;
+    color: #fff;
+}
+.content li{
+   list-style-type: none;
+   text-align: left;
+}
+
+.section h2{
+    letter-spacing: 15px;
+}
+.section h5{
+    background-color:#3085C3 ;
+    color:#fff;
+}
+.user,.user2,.user3{
+    font-size: 100px;
+}
+.user2,.user3{
+    margin-top: 55px;
+}
+
+.trial{
+    background-color:#79AC78 ;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    color:#fff;
+}
+  
+a:hover {
+   
+    color: black;
+}
+  
+.list {
+    background-color: ;
+    color: white;
+}
+.btn-container .btn2{
+    margin-left: 1000px;
+}
+
+.btn-container{
+    margin-top: 50px;
+}
+  
+.btn2 {
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    color: #fff;
+    border: 2px solid #0E21A0;
+    background: #3085C3;
+    padding: 10px 20px;
+    width: 250px;
+    cursor: pointer;
+    
+}
+.btn2 ion-icon{
+    padding:5px;
+    margin-right: 2px;
+}
+
+.btn-text{
+    margin-right:10px;
+}
+  
+
+  /*button {
+background-color: #4CAF50; /* Green */
+/*border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+}

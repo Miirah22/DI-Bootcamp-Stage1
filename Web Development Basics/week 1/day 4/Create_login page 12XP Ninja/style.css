@@ -1,0 +1,158 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+body{
+    background: rgb(175, 174, 174);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
+}
+.container{
+    position: relative;
+    width: 50%;
+    /*max-width: 1000px;
+    min-height: 1000px;*/
+    margin:50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    box-shadow: 0 35px 55px rgba(196, 82, 82, 0.1)
+}
+.left_side{
+    position: relative;
+    background:lightcyan;
+    padding:50px;
+}
+
+.title{
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+.placeholder{
+    color:grey;
+}
+label{
+    color:grey;
+}
+
+a{
+    margin-left: 35px;
+    text-decoration: none;
+    color:grey;
+}
+
+.login{
+    width: 100%;
+    border-radius: 4px;
+    padding: 6px;
+    border: none;
+    background: #8B1874;
+    color: #fff;
+    font-weight: 500;
+}
+
+.line{
+    text-align: center;
+    color: grey;
+    position: relative;
+}
+
+.line:before{
+    content:"";
+    display: block;
+    width: 80px;
+    height: 5px;
+    background: grey;
+    left:0;
+    top:50%;
+    position: absolute;
+}
+.line:after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 5px;
+    background: grey;
+    right: 0;
+    top:50%;
+    position: absolute;
+  }
+.icon-container a{
+    color: grey;
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 45px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ion-icon {
+    font-size: 30px; 
+}
+footer {
+    color:grey;
+    margin-top: 50px;
+}
+
+.right_side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: #8B1874;
+    padding:50px;
+    color: #fff;
+    
+}
+.centered-content {
+    text-align: center;
+}
+.centered-content .btn{
+    justify-content: center;
+}
+  
+.user-icon ion-icon{
+    font-size: 80px; 
+    font-weight: 900;
+}
+h1{
+    font-weight:900;
+}
+.btn-container{
+    margin-top: 50px;
+}
+  
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    padding: 10px 20px;
+    width: 175px;
+    cursor: pointer;
+    margin-left:50px
+}
+
+.btn-text{
+    margin-right:10px;
+}
+  
+  
+  
+  
+  
+  
+

@@ -1,0 +1,31 @@
+.container{
+    margin-top: 25px;
+    margin-left: 25px;
+    width: 800px;
+    height:200px;
+    background-color: lightgray;
+    border:ridge;
+    position: relative;
+}
+
+.box1{
+    position: absolute;
+    justify-self: flex-end;
+    border:ridge;
+    background-color: midnightblue;
+    width:150px;
+    height: 150px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.box2{
+    position: absolute;
+    justify-self: flex-end;
+    border:ridge;
+    background-color:orangered;
+    width:150px;
+    height: 150px;
+    margin-top: 15px;
+    margin-left: 15px;
+}

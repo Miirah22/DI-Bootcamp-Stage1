@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+}
+ 
+.btn{
+    background: #A8DF8E;
+    border:2px solid #A8DF8E;
+    color: #fff;
+}
+.form-control{
+   background: #fff;
+   color: grey;
+}
+
+.notification {
+   
+   color: white;
+   text-decoration: none;
+   padding: 15px 26px;
+   position: relative;
+   display: inline-block;
+   border-radius: 2px;
+}
+ 
+.notification:hover {
+  color: grey;
+}
+ 
+.notification .badge {
+   position: absolute;
+   padding: 3px 5px;
+   border-radius: 50%;
+   background:grey;
+   color: white;
+   margin-left: 6px ;
+}
+.notification .badge:hover{
+   color:blue;
+}
+.container{
+   width:100%;
+   margin:auto;
+   padding: 125px;
+}
+.btn-primary{
+   background-color:#191D88;
+   border: #191D88;
+}
+.badge{
+   background: #4477CE;
+   border:none;
+}
+.btn-outline-secondary{
+  background:none;
+  color: black;
+  border-color: grey;
+}
+ion-icon{
+   margin-right: 10px ;
+}
+.col{
+   text-align: left;
+}
+.container .text-center{
+   display: grid;
+   grid-gap:25px;
+  
+}
+
+    

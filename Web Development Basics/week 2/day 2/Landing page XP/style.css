@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 50px;
+    text-align: center;  
+}*/
+
+body{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background: url('background.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.container h2{
+    text-align:  center;
+}
+
+.container-num{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin-top:100px;
+}
+label{
+    text-align: center;
+    
+}
+
+.text{
+    font-size:40px;
+}
+
+.text-1{
+    font-weight: 600;
+    color:black;
+}
+  
+.container2{
+    position: relative;
+    display: inline-flex;
+}
+
+.col1-4,.col2-4, .col3-4{
+    position: relative;
+    flex-grow: wrap;
+    width: 30%;
+    margin:50px;
+    display: grid;
+    align-items: center;
+    background: #fff;
+    border-radius: 4px;
+    padding-top: 10px;
+    text-align: center;
+   
+}
+.box-b {
+    position:relative;
+    padding:50px;
+    text-align: center;
+    width: 100%;
+    object-fit:cover; 
+}
+.col3-4 .box-b{
+    margin-top: 25px; 
+}
+.col1-4 .box-b{
+    margin-top: 25px;
+}
+.col2-4 .box-b{
+    margin-top: 25px;
+}
+.col1-4{
+    position: static;
+}
+.col2-4{
+  position: relative;
+  left:450px;
+  bottom:150px;
+}
+.col3-4{
+  position: relative;
+  left:900px;
+  bottom:600px;
+}
+.image-circle {
+    width: 70px; 
+    height: 70px;
+    border-radius: 50%; 
+    overflow: hidden;
+}
+.image-circle img {
+    width: 100%; 
+    height: auto; 
+    object-fit: cover;   
+}
+.image-circle{
+    position: absolute;
+    margin-bottom:50px;
+    justify-self: center;
+}
+.col1-4 .box-b {
+    background:#FF6969;
+}
+.col2-4 .box-b {
+    background:#4477CE;
+}
+.col3-4 .box-b {
+    background:#33BBC5;
+}
+
+/*@media screen and (max-width: 991px) {
+    .text-1,div,.col1-4,.col2-4,.col3-4,.box-b,.image-circle img
+   
+    {
+        width: 100%;
+        display: block;
+    }
+
+
+
+}

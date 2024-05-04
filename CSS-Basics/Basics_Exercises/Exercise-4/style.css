@@ -1,0 +1,40 @@
+
+.container{
+    border-bottom: ridge;
+    width: 810px;
+    border-right: ridge;
+    
+}
+
+
+
+.proportioned_1{
+    width:400px;
+    height: 300px;
+    
+}
+
+div{
+    justify-items: flex-end;
+    
+}
+
+.distorted_1{
+    width:200px;
+    height: 400px;
+    margin-right: 5px;
+
+}
+
+.original_1{
+    height: 400px;
+    width: 400px;
+}
+   
+.original_2{
+    height: 400px;
+    width: 400px;
+    margin-left: 5px;
+}
+   
+    

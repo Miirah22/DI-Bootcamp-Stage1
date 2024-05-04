@@ -1,0 +1,27 @@
+.row{
+    font-size: 28px;
+    font-family: Helvetia,'Times New Roman', sans-serif;
+    display: flex;
+    text-align: center;
+    
+}
+
+.col_1{
+    background-color: black;
+    color: white;
+    width:125px;
+    border:ridge;
+    height: 35px;
+    margin-right: 10px;
+}
+
+.col_2{
+    background-color: yellow;
+    color: black;
+    width:200px;
+    border:ridge;
+    display: inline;
+    height: 35px;
+    
+
+}
