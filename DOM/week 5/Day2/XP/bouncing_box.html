@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gallery</title>
+
+    <style>
+        .box{
+            width: 500px;
+            height: 500px;
+            background-color: yellow;
+            position: relative;
+        }
+
+        .ball{
+            width: 50px;
+            height: 50px;
+            background-color: red;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    
+    </style>
+</head>
+<body>
+
+    <div>
+        <h1>Box game</h1>
+        
+        <div id="box" class="box"></div>
+    </div>
+    
+    <script>
+        //create the ball
+        ball=document.createElement('div');
+        ball.className='ball';
+        ball.id='ball';
+
+    
+        
+        //append the ball to the box
+        document.querySelector('#box').appendChild(ball);
+       
+        // setInterval(move,100);
+        setTimeout(move,100);
+
+
+        var increment=10;
+        // direction=0;
+
+        min_horizontal=0;
+        max_horizontal=450;
+        min_vertical=0;
+        max_vertical=450;
+
+        counter=0;
+
+        function swapdirection(){
+            counter=counter+1;
+            if(counter==2){
+                increment=increment*-1;
+                counter=0;
+                ball.style.top=ball.offsetTop+increment+'px';
+                ball.style.left=ball.offsetLeft+increment+'px';
+            }
+            console.log(increment);
+
+
+        }
+
+        function move(){
+            console.log(ball.offsetTop);
+            console.log(ball.offsetLeft);
+            
+            if(ball.offsetLeft==0 && ball.offsetTop==0){
+                increment=10;
+            }
+            
+            if (ball.offsetTop>=min_vertical && ball.offsetTop<max_vertical){
+                ball.style.top=ball.offsetTop+increment+'px';
+            }else{
+                console.log('swapping');
+                swapdirection();
+            }
+
+            if (ball.offsetLeft>=min_horizontal && ball.offsetLeft<max_horizontal){
+                ball.style.left=ball.offsetLeft+increment+'px';
+            }else{
+                console.log('swapping');
+                swapdirection();
+            }
+            setTimeout(move,100);
+             
+        }
+
+    </script>
+</body>
+</html>

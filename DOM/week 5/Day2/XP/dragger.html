@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grand and drop</title>
+
+    <style>
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: yellow;
+            position: relative;
+        }
+
+        .box2{
+            width: 500px;
+            height: 500px;
+            background-color: red;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Drag and drop</h1>
+
+        <div id="box2" class="box"></div>
+        <br>
+        <div id="box" class="box" draggable="true" ondragstart="dragging()" ondragend="enddrag(event)"></div>
+        <br><br>
+        <div id="box2" class="box2" ondrop="dropped(event)"></div>
+       
+        
+    </div>
+
+
+    <script>
+
+        function dragging(){
+            console.log('dragging');
+        
+        }
+
+        function enddrag(event){
+            event.preventDefault();
+            console.log('enddrag');
+        
+        }
+
+        function dropped(event){
+            event.preventDefault();
+            console.log('dropped');
+        }
+
+        function dragOver(event){
+            event.preventDefault();
+        }
+    </script>
+</body>
+</html>

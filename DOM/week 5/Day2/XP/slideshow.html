@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gallery</title>
+</head>
+<body>
+    <div>
+        <h1>Gallery</h1>
+        <button id="prev" onclick="previous()">Previous</button>
+        <img src="https://www.alleycat.org/wp-content/uploads/2019/03/FELV-cat.jpg" id="img" height="500px">
+        <button id="next" onclick="next()">Next</button>
+    </div>
+    
+    <script>
+        images=['https://www.alleycat.org/wp-content/uploads/2019/03/FELV-cat.jpg','https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1240w,f_auto,q_auto:best/rockcms/2022-08/220805-domestic-cat-mjf-1540-382ba2.jpg','https://image.petmd.com/files/styles/978x550/public/2023-09/how-smart-are-cats.jpg'];
+       
+        var index=0;
+        function next(){
+            index++;
+            if (index>=images.length){
+                index=0;
+            }
+            current_image=images[index];
+            document.querySelector('#img').src=current_image;
+
+        }
+
+        function previous(){
+            index--;
+            if (index<0){
+                index=images.length-1;
+            }
+            current_image=images[index];
+            document.querySelector('#img').src=current_image;
+
+        }
+
+    </script>
+</body>
+</html>
