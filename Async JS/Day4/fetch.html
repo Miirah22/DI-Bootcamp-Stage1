@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joke fetch</title>
+</head>
+
+    <body>
+        <h1>Joke</h1>
+        <p id="joke"></p>
+        <button onclick="reload(event)">Reload</button>
+    </body>
+
+    <script>
+        function reload(event) {
+            event.preventDefault();
+
+            fetch('https://api.chucknorris.io/jokes/random')
+            .then(response => response.json())
+            .then(joke => {
+                document.getElementById('joke').innerHTML = joke.value;
+            })
+        }
+    </script>
+</html>

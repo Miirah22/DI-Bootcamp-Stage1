@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jokes</title>
+</head>
+
+    <body>
+        <h1>Joke ajax</h1>
+        <p id="joke"></p>
+        <button onclick="reload(event)">Reload</button>
+    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        function reload(event) {
+            event.preventDefault();
+            $.ajax({
+                url: 'https://api.chucknorris.io/jokes/random',
+                type: 'GET',
+                success: function(joke) {
+                    document.getElementById('joke').innerHTML = joke.value;
+                }
+            })
+        }
+    </script>
+</html>
